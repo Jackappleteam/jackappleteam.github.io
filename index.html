@@ -1,197 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Jack Apple Team — projects, updates, and more." />
-  <title>Jack Apple Team</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css" />
-</head>
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Washington State Roleplay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
 <body>
-  <div class="page-glow page-glow-one"></div>
-  <div class="page-glow page-glow-two"></div>
-
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Jack Apple Team home">
-      <span class="brand-mark">JA</span>
-      <span>Jack Apple Team</span>
-    </a>
-
-    <button class="menu-button" id="menuButton" aria-label="Open navigation" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
-    <nav class="nav" id="navMenu">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact" class="nav-button">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero section" id="home">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">WELCOME TO JACK APPLE TEAM</p>
-        <h1>Building cool things for the web.</h1>
-        <p class="hero-text">
-          A clean home for projects, updates, links, and anything else you want to share.
-          Replace this text with your own message whenever you're ready.
-        </p>
-
-        <div class="hero-actions">
-          <a href="#projects" class="button button-primary">View Projects</a>
-          <a href="#about" class="button button-secondary">Learn More</a>
-        </div>
-
-        <div class="hero-stats">
-          <div>
-            <strong>Fast</strong>
-            <span>Loads quickly on GitHub Pages</span>
-          </div>
-          <div>
-            <strong>Responsive</strong>
-            <span>Looks good on phones and computers</span>
-          </div>
-          <div>
-            <strong>Easy</strong>
-            <span>Simple files you can edit anytime</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-card reveal">
-        <div class="window-bar">
-          <span class="dot red"></span>
-          <span class="dot yellow"></span>
-          <span class="dot green"></span>
-          <span class="window-title">jackappleteam.kdns.fr</span>
-        </div>
-
-        <div class="preview-card">
-          <div class="preview-icon">⚡</div>
-          <p class="preview-label">YOUR WEBSITE</p>
-          <h2>Ready to make it yours.</h2>
-          <p>
-            Add project cards, social links, announcements, downloads, or anything else you need.
-          </p>
-          <div class="preview-line"></div>
-          <div class="preview-line short"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="about">
-      <div class="section-heading reveal">
-        <p class="eyebrow">ABOUT</p>
-        <h2>A simple base you can build on.</h2>
-        <p>
-          This starter website uses plain HTML, CSS, and JavaScript, so it works perfectly with GitHub Pages.
-        </p>
-      </div>
-
-      <div class="feature-grid">
-        <article class="feature-card reveal">
-          <div class="feature-number">01</div>
-          <h3>Modern design</h3>
-          <p>Clean spacing, rounded cards, gradients, and smooth animations.</p>
-        </article>
-
-        <article class="feature-card reveal">
-          <div class="feature-number">02</div>
-          <h3>Easy to edit</h3>
-          <p>Change the text, links, and project cards directly inside the files.</p>
-        </article>
-
-        <article class="feature-card reveal">
-          <div class="feature-number">03</div>
-          <h3>Mobile friendly</h3>
-          <p>The layout automatically adjusts to fit smaller screens.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="section-heading reveal">
-        <p class="eyebrow">PROJECTS</p>
-        <h2>Featured work</h2>
-        <p>Replace these example cards with your own projects, servers, bots, or websites.</p>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card reveal">
-          <div class="project-image project-image-one">
-            <span>01</span>
-          </div>
-          <div class="project-content">
-            <div class="project-tags">
-              <span>Website</span>
-              <span>Featured</span>
-            </div>
-            <h3>Project One</h3>
-            <p>Add a short description of your project here.</p>
-            <a href="#" onclick="return false;">Coming soon →</a>
-          </div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-image project-image-two">
-            <span>02</span>
-          </div>
-          <div class="project-content">
-            <div class="project-tags">
-              <span>Discord</span>
-              <span>Bot</span>
-            </div>
-            <h3>Project Two</h3>
-            <p>Show off a Discord bot, server, tool, or community.</p>
-            <a href="#" onclick="return false;">Coming soon →</a>
-          </div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-image project-image-three">
-            <span>03</span>
-          </div>
-          <div class="project-content">
-            <div class="project-tags">
-              <span>Custom</span>
-              <span>New</span>
-            </div>
-            <h3>Project Three</h3>
-            <p>Use this space for whatever you want to share next.</p>
-            <a href="#" onclick="return false;">Coming soon →</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <div class="contact-card reveal">
-        <div>
-          <p class="eyebrow">CONTACT</p>
-          <h2>Have something to share?</h2>
-          <p>Replace the button link below with your Discord, email, or social page.</p>
-        </div>
-        <a class="button button-primary" href="https://github.com/" target="_blank" rel="noopener noreferrer">
-          Visit GitHub
-        </a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Jack Apple Team. All rights reserved.</p>
-    <a href="#home">Back to top ↑</a>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<header class="hero" style="background-image:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75)),url('assets/washington_state_banner.png')">
+<nav><h2>WSRP</h2><div><a href="#join">Join</a></div></nav>
+<div class="hero-inner">
+<img class="logo" src="assets/washington_rp1.png">
+<h1>Washington State Roleplay</h1>
+<p>Largest Washington State ER:LC Community</p>
+<div class="buttons">
+<a class="btn" href="https://discord.gg/wsrp1">Join Discord</a>
+<a class="btn alt" href="https://erlc.gg/join/WSRPPPP">Join Server</a>
+</div>
+</div>
+</header>
+<section class="stats">
+<div><h3>Discord</h3><p>discord.gg/wsrp1</p></div>
+<div><h3>Server Code</h3><p>WSRPPPP</p></div>
+<div><h3>Community</h3><p>Largest Washington State ER:LC Server</p></div>
+</section>
+<section class="gallery">
+<img src="assets/5dfbd363-2f95-45d2-8efa-281421626266.png">
+<img src="assets/f0c1da96-17bb-4872-9f4f-2145b24c8192.png">
+<img src="assets/07bfbcad-65b7-4061-9b1d-c4f472c75c67.png">
+</section>
+<footer id="join">
+<h2>Ready to Patrol?</h2>
+<p>Join our growing community today.</p>
+<a class="btn" href="https://discord.gg/wsrp1">Join Discord</a>
+</footer>
+</body></html>
