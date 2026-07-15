@@ -1,0 +1,1 @@
+Upload index.html, style.css, script.js, and the entire assets folder to the root of your GitHub Pages repository. Do not upload only the HTML file, or the images will not load.
